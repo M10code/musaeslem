@@ -135,10 +135,36 @@
 <body>
   <h1>💌 Musa & Eslem 💌</h1>
   <div style="text-align:center;">
-  <img src="https://cdn.jsdelivr.net/gh/M10code/musaeslem@main/tavsan1.gif" 
-       alt="Tavşan" 
-       class="gif fancy-gif" 
-       style="width:160px;">
+  <img 
+    src="https://cdn.jsdelivr.net/gh/M10code/musaeslem@main/tavsan1.gif" 
+    alt="Tavşan" 
+    class="gif fancy-gif" 
+    style="width:160px;">
+</div>
+
+<style>
+.gif {
+  width: 160px;
+  max-width: 70%;
+  height: auto;
+}
+
+/* Parlayan romantik çerçeve */
+.fancy-gif {
+  border: 4px solid #ff9ecf;
+  border-radius: 25px;
+  box-shadow: 0 0 25px rgba(255, 105, 180, 0.8);
+  padding: 5px;
+  animation: glow 2s infinite ease-in-out;
+}
+
+/* Parıltı efekti */
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(255, 182, 193, 0.9); }
+  50% { box-shadow: 0 0 35px rgba(255, 105, 180, 1); }
+}
+</style>
+
 </div>
 
 
@@ -222,6 +248,7 @@
   </script>
 </body>
 </html>
+
 
 
 
